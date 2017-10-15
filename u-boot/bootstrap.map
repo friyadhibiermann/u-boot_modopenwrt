@@ -1,0 +1,359 @@
+Archive member included to satisfy reference by file (symbol)
+
+lib_bootstrap/libbootstrap.a(bootstrap_board.o)
+                              cpu/mips/start_bootstrap.o (bootstrap_board_init_f)
+lib_bootstrap/libbootstrap.a(string.o)
+                              lib_bootstrap/libbootstrap.a(bootstrap_board.o) (memset)
+lib_bootstrap/libbootstrap.a(LzmaWrapper.o)
+                              lib_bootstrap/libbootstrap.a(bootstrap_board.o) (lzma_inflate)
+lib_bootstrap/libbootstrap.a(LzmaDecode.o)
+                              lib_bootstrap/libbootstrap.a(LzmaWrapper.o) (LzmaDecodeProperties)
+board/ar7240/db12x/libdb12x.a(db12x.o)
+                              lib_bootstrap/libbootstrap.a(bootstrap_board.o) (dram_init)
+cpu/mips/ar7240/libar7240.a(qca_dram.o)
+                              board/ar7240/db12x/libdb12x.a(db12x.o) (qca_dram_size)
+cpu/mips/ar7240/libar7240.a(qca_gpio_init.o)
+                              cpu/mips/start_bootstrap.o (lowlevel_gpio_init)
+cpu/mips/ar7240/libar7240.a(qca95xx_pll_init.o)
+                              cpu/mips/start_bootstrap.o (lowlevel_init)
+cpu/mips/ar7240/libar7240.a(qca_common.o)
+                              cpu/mips/ar7240/libar7240.a(qca_dram.o) (qca_xtal_is_40mhz)
+cpu/mips/ar7240/libar7240.a(qca_clocks.o)
+                              cpu/mips/ar7240/libar7240.a(qca_dram.o) (qca_sys_clocks)
+cpu/mips/libmips.a(cache.o)   cpu/mips/start_bootstrap.o (simple_mips_cache_reset)
+/home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_ashldi3.o)
+                              cpu/mips/ar7240/libar7240.a(qca_clocks.o) (__ashldi3)
+/home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_udivdi3.o)
+                              cpu/mips/ar7240/libar7240.a(qca_clocks.o) (__udivdi3)
+
+Discarded input sections
+
+ .reginfo       0x0000000000000000       0x18 lib_bootstrap/libbootstrap.a(bootstrap_board.o)
+ .MIPS.abiflags
+                0x0000000000000000       0x18 lib_bootstrap/libbootstrap.a(bootstrap_board.o)
+ .reginfo       0x0000000000000000       0x18 lib_bootstrap/libbootstrap.a(string.o)
+ .MIPS.abiflags
+                0x0000000000000000       0x18 lib_bootstrap/libbootstrap.a(string.o)
+ .reginfo       0x0000000000000000       0x18 lib_bootstrap/libbootstrap.a(LzmaWrapper.o)
+ .MIPS.abiflags
+                0x0000000000000000       0x18 lib_bootstrap/libbootstrap.a(LzmaWrapper.o)
+ .reginfo       0x0000000000000000       0x18 lib_bootstrap/libbootstrap.a(LzmaDecode.o)
+ .MIPS.abiflags
+                0x0000000000000000       0x18 lib_bootstrap/libbootstrap.a(LzmaDecode.o)
+ .reginfo       0x0000000000000000       0x18 board/ar7240/db12x/libdb12x.a(db12x.o)
+ .MIPS.abiflags
+                0x0000000000000000       0x18 board/ar7240/db12x/libdb12x.a(db12x.o)
+ .reginfo       0x0000000000000000       0x18 cpu/mips/ar7240/libar7240.a(qca_dram.o)
+ .MIPS.abiflags
+                0x0000000000000000       0x18 cpu/mips/ar7240/libar7240.a(qca_dram.o)
+ .reginfo       0x0000000000000000       0x18 cpu/mips/ar7240/libar7240.a(qca_gpio_init.o)
+ .MIPS.abiflags
+                0x0000000000000000       0x18 cpu/mips/ar7240/libar7240.a(qca_gpio_init.o)
+ .reginfo       0x0000000000000000       0x18 cpu/mips/ar7240/libar7240.a(qca95xx_pll_init.o)
+ .MIPS.abiflags
+                0x0000000000000000       0x18 cpu/mips/ar7240/libar7240.a(qca95xx_pll_init.o)
+ .reginfo       0x0000000000000000       0x18 cpu/mips/ar7240/libar7240.a(qca_common.o)
+ .MIPS.abiflags
+                0x0000000000000000       0x18 cpu/mips/ar7240/libar7240.a(qca_common.o)
+ .reginfo       0x0000000000000000       0x18 cpu/mips/ar7240/libar7240.a(qca_clocks.o)
+ .MIPS.abiflags
+                0x0000000000000000       0x18 cpu/mips/ar7240/libar7240.a(qca_clocks.o)
+ .reginfo       0x0000000000000000       0x18 cpu/mips/libmips.a(cache.o)
+ .MIPS.abiflags
+                0x0000000000000000       0x18 cpu/mips/libmips.a(cache.o)
+ .reginfo       0x0000000000000000       0x18 /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_ashldi3.o)
+ .MIPS.abiflags
+                0x0000000000000000       0x18 /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_ashldi3.o)
+ .reginfo       0x0000000000000000       0x18 /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_udivdi3.o)
+ .MIPS.abiflags
+                0x0000000000000000       0x18 /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_udivdi3.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x0000000000000000                . = 0x0
+                0x0000000000000000                . = ALIGN (0x4)
+
+.text           0x000000009f000000     0x3040
+ *(.text)
+ .text          0x000000009f000000      0x620 cpu/mips/start_bootstrap.o
+                0x000000009f000000                _start_bootstrap
+                0x000000009f000554                bootstrap_relocate_code
+ .text          0x000000009f000620      0x2c0 lib_bootstrap/libbootstrap.a(bootstrap_board.o)
+                0x000000009f000668                malloc
+                0x000000009f0006a4                free
+                0x000000009f0006ac                hang
+                0x000000009f0006b4                bootstrap_board_init_f
+                0x000000009f0007ec                bootstrap_board_init_r
+ .text          0x000000009f0008e0       0xb0 lib_bootstrap/libbootstrap.a(string.o)
+                0x000000009f0008e0                memset
+                0x000000009f000904                memcpy
+                0x000000009f000930                memmove
+ .text          0x000000009f000990      0x220 lib_bootstrap/libbootstrap.a(LzmaWrapper.o)
+                0x000000009f000990                lzma_inflate
+ .text          0x000000009f000bb0      0xa60 lib_bootstrap/libbootstrap.a(LzmaDecode.o)
+                0x000000009f000bb0                LzmaDecodeProperties
+                0x000000009f000c28                LzmaDecode
+ .text          0x000000009f001610       0x40 board/ar7240/db12x/libdb12x.a(db12x.o)
+                0x000000009f001610                dram_init
+ .text          0x000000009f001650      0x860 cpu/mips/ar7240/libar7240.a(qca_dram.o)
+                0x000000009f001694                qca_dram_size
+                0x000000009f0016dc                qca_dram_type
+                0x000000009f001708                qca_dram_ddr_width
+                0x000000009f001724                qca_dram_cas_lat
+                0x000000009f001748                qca_dram_trcd_lat
+                0x000000009f001758                qca_dram_trp_lat
+                0x000000009f001768                qca_dram_tras_lat
+                0x000000009f001778                qca_dram_init
+ .text          0x000000009f001eb0      0x1c0 cpu/mips/ar7240/libar7240.a(qca_gpio_init.o)
+                0x000000009f001eb0                lowlevel_gpio_init
+                0x000000009f002010                all_led_on
+                0x000000009f002040                all_led_off
+ .text          0x000000009f002070      0x3b0 cpu/mips/ar7240/libar7240.a(qca95xx_pll_init.o)
+                0x000000009f002070                lowlevel_init
+ .text          0x000000009f002420       0x40 cpu/mips/ar7240/libar7240.a(qca_common.o)
+                0x000000009f002420                qca_xtal_is_40mhz
+                0x000000009f002430                qca_full_chip_reset
+ .text          0x000000009f002460      0x390 cpu/mips/ar7240/libar7240.a(qca_clocks.o)
+                0x000000009f002460                qca_sys_clocks
+ .text          0x000000009f0027f0      0x390 cpu/mips/libmips.a(cache.o)
+                0x000000009f0027f0                simple_mips_cache_reset
+                0x000000009f002844                mips_cache_reset
+                0x000000009f0029e8                dcache_status
+                0x000000009f0029f4                dcache_disable
+                0x000000009f002a0c                mips_cache_lock
+                0x000000009f002a68                dcache_flush_range
+                0x000000009f002a8c                mips_cache_flush
+                0x000000009f002ae8                mips_icache_flush_ix
+                0x000000009f002b20                mips_cache_lock_24k
+ .text          0x000000009f002b80       0x50 /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_ashldi3.o)
+                0x000000009f002b80                __ashldi3
+ .text          0x000000009f002bd0      0x470 /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_udivdi3.o)
+                0x000000009f002bd0                __udivdi3
+                0x000000009f003040                . = ALIGN (0x4)
+
+.rodata         0x000000009f003040       0x10
+ *(.rodata)
+ .rodata        0x000000009f003040       0x10 cpu/mips/ar7240/libar7240.a(qca_dram.o)
+
+.reginfo        0x000000009f003050       0x18
+ .reginfo       0x000000009f003050       0x18 cpu/mips/start_bootstrap.o
+
+.MIPS.abiflags  0x000000009f003068       0x18
+ .MIPS.abiflags
+                0x000000009f003068       0x18 cpu/mips/start_bootstrap.o
+
+.eh_frame       0x000000009f003080       0x28
+ .eh_frame      0x000000009f003080       0x28 /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_udivdi3.o)
+
+.rel.dyn        0x000000009f0030a8        0x0
+ .rel.dyn       0x000000009f0030a8        0x0 cpu/mips/start_bootstrap.o
+                0x000000009f0030a8                . = ALIGN (0x4)
+
+.data           0x000000009f0030b0        0x0
+ *(.data)
+ .data          0x000000009f0030b0        0x0 cpu/mips/start_bootstrap.o
+ .data          0x000000009f0030b0        0x0 lib_bootstrap/libbootstrap.a(bootstrap_board.o)
+ .data          0x000000009f0030b0        0x0 lib_bootstrap/libbootstrap.a(string.o)
+ .data          0x000000009f0030b0        0x0 lib_bootstrap/libbootstrap.a(LzmaWrapper.o)
+ .data          0x000000009f0030b0        0x0 lib_bootstrap/libbootstrap.a(LzmaDecode.o)
+ .data          0x000000009f0030b0        0x0 board/ar7240/db12x/libdb12x.a(db12x.o)
+ .data          0x000000009f0030b0        0x0 cpu/mips/ar7240/libar7240.a(qca_dram.o)
+ .data          0x000000009f0030b0        0x0 cpu/mips/ar7240/libar7240.a(qca_gpio_init.o)
+ .data          0x000000009f0030b0        0x0 cpu/mips/ar7240/libar7240.a(qca95xx_pll_init.o)
+ .data          0x000000009f0030b0        0x0 cpu/mips/ar7240/libar7240.a(qca_common.o)
+ .data          0x000000009f0030b0        0x0 cpu/mips/ar7240/libar7240.a(qca_clocks.o)
+ .data          0x000000009f0030b0        0x0 cpu/mips/libmips.a(cache.o)
+ .data          0x000000009f0030b0        0x0 /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_ashldi3.o)
+ .data          0x000000009f0030b0        0x0 /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_udivdi3.o)
+
+.got.plt        0x000000009f0030a8        0x0
+ .got.plt       0x000000009f0030a8        0x0 cpu/mips/start_bootstrap.o
+
+.data.rel.local
+                0x000000009f0030a8        0x8
+ .data.rel.local
+                0x000000009f0030a8        0x8 lib_bootstrap/libbootstrap.a(bootstrap_board.o)
+                0x000000009f0030a8                init_sequence
+                0x000000009f0030b0                . = ALIGN (0x4)
+
+.sdata
+ *(.sdata)
+ *(.sdata)
+                0x000000009f0030b0                . = ALIGN (0x10)
+                0x000000009f0030b0                _gp = .
+                0x000000009f0030b0                __got_start_bootstrap = .
+
+.got            0x000000009f0030b0       0x8c
+ *(.got)
+ .got           0x000000009f0030b0       0x8c cpu/mips/start_bootstrap.o
+                0x000000009f0030b0                _GLOBAL_OFFSET_TABLE_
+                0x000000009f00313c                __got_end_bootstrap = .
+                0x000000009f00313c                uboot_end_data_bootstrap = .
+                0x0000000000000023                num_got_entries = ((__got_end_bootstrap - __got_start_bootstrap) >> 0x2)
+                0x000000009f00313c                . = ALIGN (0x4)
+
+.sbss
+ *(.sbss)
+
+.bss            0x000000009f003140       0x10
+ *(.bss)
+ .bss           0x000000009f003140        0x0 cpu/mips/start_bootstrap.o
+ .bss           0x000000009f003140       0x10 lib_bootstrap/libbootstrap.a(bootstrap_board.o)
+ .bss           0x000000009f003150        0x0 lib_bootstrap/libbootstrap.a(string.o)
+ .bss           0x000000009f003150        0x0 lib_bootstrap/libbootstrap.a(LzmaWrapper.o)
+ .bss           0x000000009f003150        0x0 lib_bootstrap/libbootstrap.a(LzmaDecode.o)
+ .bss           0x000000009f003150        0x0 board/ar7240/db12x/libdb12x.a(db12x.o)
+ .bss           0x000000009f003150        0x0 cpu/mips/ar7240/libar7240.a(qca_dram.o)
+ .bss           0x000000009f003150        0x0 cpu/mips/ar7240/libar7240.a(qca_gpio_init.o)
+ .bss           0x000000009f003150        0x0 cpu/mips/ar7240/libar7240.a(qca95xx_pll_init.o)
+ .bss           0x000000009f003150        0x0 cpu/mips/ar7240/libar7240.a(qca_common.o)
+ .bss           0x000000009f003150        0x0 cpu/mips/ar7240/libar7240.a(qca_clocks.o)
+ .bss           0x000000009f003150        0x0 cpu/mips/libmips.a(cache.o)
+ .bss           0x000000009f003150        0x0 /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_ashldi3.o)
+ .bss           0x000000009f003150        0x0 /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_udivdi3.o)
+                0x000000009f003150                uboot_end_bootstrap = .
+Address of section .text set to 0x9f000000
+LOAD cpu/mips/start_bootstrap.o
+START GROUP
+LOAD lib_bootstrap/libbootstrap.a
+LOAD board/ar7240/db12x/libdb12x.a
+LOAD httpd/libhttpd.a
+LOAD cpu/mips/ar7240/libar7240.a
+LOAD cpu/mips/libmips.a
+END GROUP
+LOAD /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a
+OUTPUT(bootstrap elf32-tradbigmips)
+
+.pdr            0x0000000000000000      0x520
+ .pdr           0x0000000000000000       0x20 cpu/mips/start_bootstrap.o
+ .pdr           0x0000000000000020       0xc0 lib_bootstrap/libbootstrap.a(bootstrap_board.o)
+ .pdr           0x00000000000000e0       0x60 lib_bootstrap/libbootstrap.a(string.o)
+ .pdr           0x0000000000000140       0x20 lib_bootstrap/libbootstrap.a(LzmaWrapper.o)
+ .pdr           0x0000000000000160       0x40 lib_bootstrap/libbootstrap.a(LzmaDecode.o)
+ .pdr           0x00000000000001a0       0x20 board/ar7240/db12x/libdb12x.a(db12x.o)
+ .pdr           0x00000000000001c0      0x120 cpu/mips/ar7240/libar7240.a(qca_dram.o)
+ .pdr           0x00000000000002e0       0x60 cpu/mips/ar7240/libar7240.a(qca_gpio_init.o)
+ .pdr           0x0000000000000340       0x20 cpu/mips/ar7240/libar7240.a(qca95xx_pll_init.o)
+ .pdr           0x0000000000000360       0x40 cpu/mips/ar7240/libar7240.a(qca_common.o)
+ .pdr           0x00000000000003a0       0x20 cpu/mips/ar7240/libar7240.a(qca_clocks.o)
+ .pdr           0x00000000000003c0      0x120 cpu/mips/libmips.a(cache.o)
+ .pdr           0x00000000000004e0       0x20 /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_ashldi3.o)
+ .pdr           0x0000000000000500       0x20 /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_udivdi3.o)
+
+.gnu.attributes
+                0x0000000000000000       0x10
+ .gnu.attributes
+                0x0000000000000000       0x10 cpu/mips/start_bootstrap.o
+ .gnu.attributes
+                0x0000000000000010       0x10 lib_bootstrap/libbootstrap.a(bootstrap_board.o)
+ .gnu.attributes
+                0x0000000000000020       0x10 lib_bootstrap/libbootstrap.a(string.o)
+ .gnu.attributes
+                0x0000000000000030       0x10 lib_bootstrap/libbootstrap.a(LzmaWrapper.o)
+ .gnu.attributes
+                0x0000000000000040       0x10 lib_bootstrap/libbootstrap.a(LzmaDecode.o)
+ .gnu.attributes
+                0x0000000000000050       0x10 board/ar7240/db12x/libdb12x.a(db12x.o)
+ .gnu.attributes
+                0x0000000000000060       0x10 cpu/mips/ar7240/libar7240.a(qca_dram.o)
+ .gnu.attributes
+                0x0000000000000070       0x10 cpu/mips/ar7240/libar7240.a(qca_gpio_init.o)
+ .gnu.attributes
+                0x0000000000000080       0x10 cpu/mips/ar7240/libar7240.a(qca95xx_pll_init.o)
+ .gnu.attributes
+                0x0000000000000090       0x10 cpu/mips/ar7240/libar7240.a(qca_common.o)
+ .gnu.attributes
+                0x00000000000000a0       0x10 cpu/mips/ar7240/libar7240.a(qca_clocks.o)
+ .gnu.attributes
+                0x00000000000000b0       0x10 cpu/mips/libmips.a(cache.o)
+ .gnu.attributes
+                0x00000000000000c0       0x10 /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_ashldi3.o)
+ .gnu.attributes
+                0x00000000000000d0       0x10 /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_udivdi3.o)
+
+.mdebug.abi32   0x0000000000000000        0x0
+ .mdebug.abi32  0x0000000000000000        0x0 lib_bootstrap/libbootstrap.a(bootstrap_board.o)
+ .mdebug.abi32  0x0000000000000000        0x0 lib_bootstrap/libbootstrap.a(string.o)
+ .mdebug.abi32  0x0000000000000000        0x0 lib_bootstrap/libbootstrap.a(LzmaWrapper.o)
+ .mdebug.abi32  0x0000000000000000        0x0 lib_bootstrap/libbootstrap.a(LzmaDecode.o)
+ .mdebug.abi32  0x0000000000000000        0x0 board/ar7240/db12x/libdb12x.a(db12x.o)
+ .mdebug.abi32  0x0000000000000000        0x0 cpu/mips/ar7240/libar7240.a(qca_dram.o)
+ .mdebug.abi32  0x0000000000000000        0x0 cpu/mips/ar7240/libar7240.a(qca_common.o)
+ .mdebug.abi32  0x0000000000000000        0x0 cpu/mips/ar7240/libar7240.a(qca_clocks.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_ashldi3.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_udivdi3.o)
+
+.comment        0x0000000000000000       0x2d
+ .comment       0x0000000000000000       0x2d lib_bootstrap/libbootstrap.a(bootstrap_board.o)
+                                         0x2e (size before relaxing)
+ .comment       0x000000000000002d       0x2e lib_bootstrap/libbootstrap.a(string.o)
+ .comment       0x000000000000002d       0x2e lib_bootstrap/libbootstrap.a(LzmaWrapper.o)
+ .comment       0x000000000000002d       0x2e lib_bootstrap/libbootstrap.a(LzmaDecode.o)
+ .comment       0x000000000000002d       0x2e board/ar7240/db12x/libdb12x.a(db12x.o)
+ .comment       0x000000000000002d       0x2e cpu/mips/ar7240/libar7240.a(qca_dram.o)
+ .comment       0x000000000000002d       0x2e cpu/mips/ar7240/libar7240.a(qca_common.o)
+ .comment       0x000000000000002d       0x2e cpu/mips/ar7240/libar7240.a(qca_clocks.o)
+ .comment       0x000000000000002d       0x2e /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_ashldi3.o)
+ .comment       0x000000000000002d       0x2e /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_udivdi3.o)
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 lib_bootstrap/libbootstrap.a(bootstrap_board.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 lib_bootstrap/libbootstrap.a(string.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 lib_bootstrap/libbootstrap.a(LzmaWrapper.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 lib_bootstrap/libbootstrap.a(LzmaDecode.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 board/ar7240/db12x/libdb12x.a(db12x.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 cpu/mips/ar7240/libar7240.a(qca_dram.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 cpu/mips/ar7240/libar7240.a(qca_common.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 cpu/mips/ar7240/libar7240.a(qca_clocks.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_ashldi3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_udivdi3.o)
+
+.debug_info     0x0000000000000000      0x763
+ .debug_info    0x0000000000000000      0x1a0 /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_ashldi3.o)
+ .debug_info    0x00000000000001a0      0x5c3 /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_udivdi3.o)
+
+.debug_abbrev   0x0000000000000000      0x23c
+ .debug_abbrev  0x0000000000000000       0xf1 /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_ashldi3.o)
+ .debug_abbrev  0x00000000000000f1      0x14b /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_udivdi3.o)
+
+.debug_loc      0x0000000000000000      0xab5
+ .debug_loc     0x0000000000000000       0xf4 /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_ashldi3.o)
+ .debug_loc     0x00000000000000f4      0x9c1 /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_udivdi3.o)
+
+.debug_aranges  0x0000000000000000       0x40
+ .debug_aranges
+                0x0000000000000000       0x20 /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_ashldi3.o)
+ .debug_aranges
+                0x0000000000000020       0x20 /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_udivdi3.o)
+
+.debug_line     0x0000000000000000      0x193
+ .debug_line    0x0000000000000000       0xa1 /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_ashldi3.o)
+ .debug_line    0x00000000000000a1       0xf2 /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_udivdi3.o)
+
+.debug_str      0x0000000000000000      0x3f7
+ .debug_str     0x0000000000000000      0x292 /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_ashldi3.o)
+                                        0x2e6 (size before relaxing)
+ .debug_str     0x0000000000000292      0x165 /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_udivdi3.o)
+                                        0x323 (size before relaxing)
+
+.debug_frame    0x0000000000000000       0x20
+ .debug_frame   0x0000000000000000       0x20 /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_ashldi3.o)
+
+.debug_ranges   0x0000000000000000      0x158
+ .debug_ranges  0x0000000000000000      0x158 /home/openwrt/lede/staging_dir/toolchain-mips_24kc_gcc-5.4.0_musl/lib/gcc/mips-openwrt-linux-musl/5.4.0/libgcc.a(_udivdi3.o)
